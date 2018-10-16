@@ -1,0 +1,23 @@
+{
+  "name": "hello-xmas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.es6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmnipreZz/hello-xmas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmnipreZz/hello-xmas/issues"
+  },
+  "homepage": "https://github.com/OmnipreZz/hello-xmas#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

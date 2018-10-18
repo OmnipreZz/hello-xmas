@@ -8,9 +8,17 @@ header {
     font-size: 30px;
     color: red;
     padding-top: 20px;
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 div {
     width: 200px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+div ul li {
+    list-style-type: none;
+    color: blue;
+    font-size: 20px;
 }

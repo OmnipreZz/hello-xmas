@@ -12,10 +12,10 @@ const hello = () => {
 
     //message
     let message = document.getElementById('message');
-    message.innerHTML = `Bonjour ${name} !`;
+    message.innerHTML = `Bonjour ${ok} !`;
 
     //List
-    var li = document.createElement("li");
+    let li = document.createElement("li");
     let list = document.getElementById('list');
     li.innerHTML = ok;
     document.getElementById("list").append(li);

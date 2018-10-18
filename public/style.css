@@ -1,13 +1,16 @@
 body {
     background-color: aquamarine;
-}
-
-header, section {
     text-align: center;
-    margin-top: 150px;
 }
 
-section {
-    font-size: 40px;
+header {
+    height: 150px;
+    font-size: 30px;
     color: red;
+    padding-top: 20px;
+}
+
+div {
+    width: 200px;
+    margin: 0 auto; 
 }

@@ -14,12 +14,13 @@ const hello = () => {
     let message = document.getElementById('message');
     message.innerHTML = `Bonjour ${ok} !`;
 
+    
     //List
     let li = document.createElement("li");
     let list = document.getElementById('list');
     li.innerHTML = ok;
     document.getElementById("list").append(li);
-}
 
+}
 
 document.getElementById('button').onclick = hello;

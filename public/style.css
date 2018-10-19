@@ -12,13 +12,19 @@ header {
 }
 
 div {
-    width: 200px;
+    width: 100%;
     margin: 0 auto;
-    font-family: 'Mountains of Christmas', cursive;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
-div ul li {
+ul li {
     list-style-type: none;
     color: blue;
     font-size: 20px;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+h4 {
+    color: red;
 }

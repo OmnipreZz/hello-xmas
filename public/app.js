@@ -7,6 +7,7 @@ var hello = function hello() {
     //Input name
     var input = document.getElementById('name').value;
     name = input !== "" ? input : "Père Noël";
+    name = name.toLowerCase();
     var maj = name.split('');
     maj[0] = maj[0].toUpperCase();
     var ok = maj.join('');
@@ -26,6 +27,7 @@ var search = function search() {
 
     //Compare
     var nameSearch = document.getElementById('search').value;
+    nameSearch = nameSearch.toLowerCase();
     var maj = nameSearch.split('');
     maj[0] = maj[0].toUpperCase();
     var ok = maj.join('');

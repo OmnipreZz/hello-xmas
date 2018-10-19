@@ -5,6 +5,7 @@ const hello = () => {
     //Input name
     let input = document.getElementById('name').value;
     name = input !== "" ? input : "Père Noël";
+    name = name.toLowerCase();
     let maj = name.split('');
     maj[0] = maj[0].toUpperCase();
     let ok = maj.join('');
@@ -25,6 +26,7 @@ const search = () => {
 
     //Compare
     let nameSearch = document.getElementById('search').value;
+    nameSearch = nameSearch.toLowerCase();
     let maj = nameSearch.split('');
     maj[0] = maj[0].toUpperCase();
     let ok = maj.join('');
